@@ -1,0 +1,11 @@
+/Users/kmohan/Apps/workspace-QAclass/ecommerce-POM-test/src/test/java/com/apex/ecommerce/signon/page/amazon/AmazonBasePage.java
+/Users/kmohan/Apps/workspace-QAclass/ecommerce-POM-test/src/test/java/com/apex/ecommerce/signon/constant/AmazonRegConstant.java
+/Users/kmohan/Apps/workspace-QAclass/ecommerce-POM-test/src/test/java/com/apex/ecommerce/registration/page/amazon/AmazonRegBaseTest.java
+/Users/kmohan/Apps/workspace-QAclass/ecommerce-POM-test/src/test/java/com/apex/ecommerce/signon/page/google/GoogleLoginpage.java
+/Users/kmohan/Apps/workspace-QAclass/ecommerce-POM-test/src/test/java/com/apex/ecommerce/signon/constant/GoogleLoginPageConstant.java
+/Users/kmohan/Apps/workspace-QAclass/ecommerce-POM-test/src/test/java/com/apex/ecommerce/signon/page/amazon/AmazonLoginTest.java
+/Users/kmohan/Apps/workspace-QAclass/ecommerce-POM-test/src/test/java/com/apex/ecommerce/registration/page/amazon/RegistrationPage.java
+/Users/kmohan/Apps/workspace-QAclass/ecommerce-POM-test/src/test/java/com/apex/ecommerce/registration/page/amazon/RegistrationTest.java
+/Users/kmohan/Apps/workspace-QAclass/ecommerce-POM-test/src/test/java/com/apex/ecommerce/signon/constant/AmazonPageConstant.java
+/Users/kmohan/Apps/workspace-QAclass/ecommerce-POM-test/src/test/java/com/apex/ecommerce/signon/page/amazon/AmazonLoginPage.java
+/Users/kmohan/Apps/workspace-QAclass/ecommerce-POM-test/src/test/java/com/apex/ecommerce/signon/page/google/GoogleLoginTest.java

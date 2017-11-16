@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="2" name="TestSuite" time="2.015" errors="0" skipped="0">
+<testsuite tests="5" failures="2" name="TestSuite" time="2.534" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib"/>
@@ -26,7 +26,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/kmohan/Apps/workspace-QAclass/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf8943906814777134485.tmp"/>
+    <property name="classworlds.conf" value="/Users/kmohan/Apps/workspace-QAclass/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf783099299636704678.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/kmohan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -59,24 +59,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="ecommerce.FacebookLoginTest" name="blankcredentials" time="1.238"/>
-  <testcase classname="ecommerce.FacebookLoginTest" name="blankpass" time="0.375">
+  <testcase classname="ecommerce.FacebookLoginTest" name="blankcredentials" time="1.791"/>
+  <testcase classname="ecommerce.FacebookLoginTest" name="blankpass" time="0.374">
     <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos;Log In&apos;]&quot;}
-Command duration or timeout: 113 milliseconds
+Command duration or timeout: 21 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
+System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
+Session ID: 0b7db30a-bb89-4d46-82af-206312ef555a
 *** Element info: {Using=xpath, value=//input[@value=&apos;Log In&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos;Log In&apos;]&quot;}
-Command duration or timeout: 113 milliseconds
+Command duration or timeout: 21 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
+System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
+Session ID: 0b7db30a-bb89-4d46-82af-206312ef555a
 *** Element info: {Using=xpath, value=//input[@value=&apos;Log In&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -93,32 +93,32 @@ Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos;Log In&apos;]&quot;}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
+System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 </failure>
   </testcase>
-  <testcase classname="ecommerce.FacebookLoginTest" name="login" time="0.401">
+  <testcase classname="ecommerce.FacebookLoginTest" name="login" time="0.366">
     <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos;Log In&apos;]&quot;}
-Command duration or timeout: 17 milliseconds
+Command duration or timeout: 18 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
+System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
+Session ID: 0b7db30a-bb89-4d46-82af-206312ef555a
 *** Element info: {Using=xpath, value=//input[@value=&apos;Log In&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos;Log In&apos;]&quot;}
-Command duration or timeout: 17 milliseconds
+Command duration or timeout: 18 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
+System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
+Session ID: 0b7db30a-bb89-4d46-82af-206312ef555a
 *** Element info: {Using=xpath, value=//input[@value=&apos;Log In&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -135,15 +135,15 @@ Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos;Log In&apos;]&quot;}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
+System info: host: &apos;LM-SJC-00870810&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_31&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 </failure>
   </testcase>
-  <testcase classname="ecommerce.NewTest" name="f" time="0"/>
   <testcase classname="ecommerce.NewTest" name="f" time="0.001"/>
+  <testcase classname="ecommerce.NewTest" name="f" time="0.002"/>
 </testsuite>

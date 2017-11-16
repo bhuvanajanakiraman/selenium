@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.apex.ecommerce.signon.page.amazon.AmazonLoginTest">
+        <methods>
+          <include name="seturl"/>
+          <include name="teardown"/>
+          <include name="testwithdata" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.apex.ecommerce.signon.page.amazon.AmazonLoginTest -->
+      <class name="com.apex.ecommerce.registration.page.amazon.RegistrationTest">
+        <methods>
+          <include name="seturl"/>
+          <include name="CreateAc"/>
+        </methods>
+      </class> <!-- com.apex.ecommerce.registration.page.amazon.RegistrationTest -->
+      <class name="com.apex.ecommerce.signon.page.google.GoogleLoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testwithsuccessfuldata"/>
+        </methods>
+      </class> <!-- com.apex.ecommerce.signon.page.google.GoogleLoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49054" started-at="2017-02-11T04:11:20Z" finished-at="2017-02-11T04:12:09Z">
+  <suite name="Failed suite [Failed suite [Default suite]]" duration-ms="15755" started-at="2017-09-13T22:55:37Z" finished-at="2017-09-13T22:55:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49054" started-at="2017-02-11T04:11:20Z" finished-at="2017-02-11T04:12:09Z">
+    <test name="Default test(failed)(failed)" duration-ms="15755" started-at="2017-09-13T22:55:37Z" finished-at="2017-09-13T22:55:53Z">
       <class name="ecommerce.GoogleloginTest_NG">
-        <test-method status="PASS" signature="setup()[pri:0, instance:ecommerce.GoogleloginTest_NG@1d057a39]" name="setup" is-config="true" duration-ms="16000" started-at="2017-02-10T20:11:20Z" finished-at="2017-02-10T20:11:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ecommerce.GoogleloginTest_NG@4386f16]" name="setup" is-config="true" duration-ms="5152" started-at="2017-09-13T15:55:37Z" finished-at="2017-09-13T15:55:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="testwithsuccesfuldata(java.lang.String, java.lang.String)[pri:0, instance:ecommerce.GoogleloginTest_NG@1d057a39]" name="testwithsuccesfuldata" duration-ms="2680" started-at="2017-02-10T20:11:36Z" data-provider="userids" finished-at="2017-02-10T20:11:38Z">
+        <test-method status="FAIL" signature="testwithsuccesfuldata(java.lang.String, java.lang.String)[pri:0, instance:ecommerce.GoogleloginTest_NG@4386f16]" name="testwithsuccesfuldata" duration-ms="830" started-at="2017-09-13T15:55:42Z" data-provider="userids" finished-at="2017-09-13T15:55:43Z">
           <params>
             <param index="0">
               <value>
@@ -26,26 +26,26 @@
           </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"Passwd"}
-Command duration or timeout: 19 milliseconds
+              <![CDATA[Unable to locate element: {"method":"id","selector":"Email"}
+Command duration or timeout: 806 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '10.1.10.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 106b0838-11a8-1b4b-99a0-5fe2128aadf3
-*** Element info: {Using=xpath, value=Passwd}]]>
+Session ID: 78499850-ab78-ba41-86b6-6aa5b9180362
+*** Element info: {Using=id, value=Email}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"Passwd"}
-Command duration or timeout: 19 milliseconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"Email"}
+Command duration or timeout: 806 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '10.1.10.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 106b0838-11a8-1b4b-99a0-5fe2128aadf3
-*** Element info: {Using=xpath, value=Passwd}
+Session ID: 78499850-ab78-ba41-86b6-6aa5b9180362
+*** Element info: {Using=id, value=Email}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -54,10 +54,10 @@ Session ID: 106b0838-11a8-1b4b-99a0-5fe2128aadf3
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at ecommerce.GoogleloginTest_NG.testwithsuccesfuldata(GoogleloginTest_NG.java:28)
+	at ecommerce.GoogleloginTest_NG.testwithsuccesfuldata(GoogleloginTest_NG.java:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,31 +83,31 @@ Session ID: 106b0838-11a8-1b4b-99a0-5fe2128aadf3
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"Passwd"}
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"Email"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '10.1.10.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous8556447496801668048webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous8556447496801668048webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous8556447496801668048webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous8556447496801668048webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous8556447496801668048webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7789161399934291383webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7789161399934291383webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7789161399934291383webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7789161399934291383webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7789161399934291383webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testwithsuccesfuldata -->
-        <test-method status="PASS" signature="close()[pri:0, instance:ecommerce.GoogleloginTest_NG@1d057a39]" name="close" is-config="true" duration-ms="22" started-at="2017-02-10T20:11:38Z" finished-at="2017-02-10T20:11:38Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:ecommerce.GoogleloginTest_NG@4386f16]" name="close" is-config="true" duration-ms="24" started-at="2017-09-13T15:55:43Z" finished-at="2017-09-13T15:55:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:ecommerce.GoogleloginTest_NG@1d057a39]" name="setup" is-config="true" duration-ms="18448" started-at="2017-02-10T20:11:38Z" finished-at="2017-02-10T20:11:57Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ecommerce.GoogleloginTest_NG@4386f16]" name="setup" is-config="true" duration-ms="3940" started-at="2017-09-13T15:55:43Z" finished-at="2017-09-13T15:55:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="testwithsuccesfuldata(java.lang.String, java.lang.String)[pri:0, instance:ecommerce.GoogleloginTest_NG@1d057a39]" name="testwithsuccesfuldata" duration-ms="3758" started-at="2017-02-10T20:11:57Z" data-provider="userids" finished-at="2017-02-10T20:12:01Z">
+        <test-method status="FAIL" signature="testwithsuccesfuldata(java.lang.String, java.lang.String)[pri:0, instance:ecommerce.GoogleloginTest_NG@4386f16]" name="testwithsuccesfuldata" duration-ms="845" started-at="2017-09-13T15:55:47Z" data-provider="userids" finished-at="2017-09-13T15:55:48Z">
           <params>
             <param index="0">
               <value>
@@ -122,26 +122,26 @@ Driver info: driver.version: unknown
           </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"Passwd"}
-Command duration or timeout: 22 milliseconds
+              <![CDATA[Unable to locate element: {"method":"id","selector":"Email"}
+Command duration or timeout: 843 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '10.1.10.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d80441c7-ee9e-2341-b568-a45cc3423f0f
-*** Element info: {Using=xpath, value=Passwd}]]>
+Session ID: be9be373-cd69-4543-b4ee-afa002f0740f
+*** Element info: {Using=id, value=Email}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"Passwd"}
-Command duration or timeout: 22 milliseconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"Email"}
+Command duration or timeout: 843 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '10.1.10.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d80441c7-ee9e-2341-b568-a45cc3423f0f
-*** Element info: {Using=xpath, value=Passwd}
+Session ID: be9be373-cd69-4543-b4ee-afa002f0740f
+*** Element info: {Using=id, value=Email}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -150,10 +150,10 @@ Session ID: d80441c7-ee9e-2341-b568-a45cc3423f0f
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at ecommerce.GoogleloginTest_NG.testwithsuccesfuldata(GoogleloginTest_NG.java:28)
+	at ecommerce.GoogleloginTest_NG.testwithsuccesfuldata(GoogleloginTest_NG.java:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -179,31 +179,31 @@ Session ID: d80441c7-ee9e-2341-b568-a45cc3423f0f
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"Passwd"}
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"Email"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '10.1.10.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous1572740266282915080webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous1572740266282915080webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous1572740266282915080webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous1572740266282915080webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous1572740266282915080webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous8468161789990209226webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous8468161789990209226webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous8468161789990209226webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous8468161789990209226webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous8468161789990209226webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testwithsuccesfuldata -->
-        <test-method status="PASS" signature="close()[pri:0, instance:ecommerce.GoogleloginTest_NG@1d057a39]" name="close" is-config="true" duration-ms="22" started-at="2017-02-10T20:12:01Z" finished-at="2017-02-10T20:12:01Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:ecommerce.GoogleloginTest_NG@4386f16]" name="close" is-config="true" duration-ms="34" started-at="2017-09-13T15:55:48Z" finished-at="2017-09-13T15:55:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:ecommerce.GoogleloginTest_NG@1d057a39]" name="setup" is-config="true" duration-ms="5762" started-at="2017-02-10T20:12:01Z" finished-at="2017-02-10T20:12:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ecommerce.GoogleloginTest_NG@4386f16]" name="setup" is-config="true" duration-ms="3975" started-at="2017-09-13T15:55:48Z" finished-at="2017-09-13T15:55:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="testwithsuccesfuldata(java.lang.String, java.lang.String)[pri:0, instance:ecommerce.GoogleloginTest_NG@1d057a39]" name="testwithsuccesfuldata" duration-ms="2281" started-at="2017-02-10T20:12:06Z" data-provider="userids" finished-at="2017-02-10T20:12:09Z">
+        <test-method status="FAIL" signature="testwithsuccesfuldata(java.lang.String, java.lang.String)[pri:0, instance:ecommerce.GoogleloginTest_NG@4386f16]" name="testwithsuccesfuldata" duration-ms="855" started-at="2017-09-13T15:55:52Z" data-provider="userids" finished-at="2017-09-13T15:55:53Z">
           <params>
             <param index="0">
               <value>
@@ -218,26 +218,26 @@ Driver info: driver.version: unknown
           </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"Passwd"}
-Command duration or timeout: 15 milliseconds
+              <![CDATA[Unable to locate element: {"method":"id","selector":"Email"}
+Command duration or timeout: 852 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '10.1.10.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0fa43fc8-ed17-144a-be9c-5fa605cafd9d
-*** Element info: {Using=xpath, value=Passwd}]]>
+Session ID: 3c79123a-8ada-a745-937a-3e9bab640b3d
+*** Element info: {Using=id, value=Email}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"Passwd"}
-Command duration or timeout: 15 milliseconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"Email"}
+Command duration or timeout: 852 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '10.1.10.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0fa43fc8-ed17-144a-be9c-5fa605cafd9d
-*** Element info: {Using=xpath, value=Passwd}
+Session ID: 3c79123a-8ada-a745-937a-3e9bab640b3d
+*** Element info: {Using=id, value=Email}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -246,10 +246,10 @@ Session ID: 0fa43fc8-ed17-144a-be9c-5fa605cafd9d
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at ecommerce.GoogleloginTest_NG.testwithsuccesfuldata(GoogleloginTest_NG.java:28)
+	at ecommerce.GoogleloginTest_NG.testwithsuccesfuldata(GoogleloginTest_NG.java:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -275,27 +275,27 @@ Session ID: 0fa43fc8-ed17-144a-be9c-5fa605cafd9d
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"Passwd"}
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"Email"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '10.1.10.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7396213695786986913webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7396213695786986913webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7396213695786986913webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7396213695786986913webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7396213695786986913webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7407805080639543221webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7407805080639543221webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7407805080639543221webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7407805080639543221webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7407805080639543221webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testwithsuccesfuldata -->
-        <test-method status="PASS" signature="close()[pri:0, instance:ecommerce.GoogleloginTest_NG@1d057a39]" name="close" is-config="true" duration-ms="28" started-at="2017-02-10T20:12:09Z" finished-at="2017-02-10T20:12:09Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:ecommerce.GoogleloginTest_NG@4386f16]" name="close" is-config="true" duration-ms="31" started-at="2017-09-13T15:55:53Z" finished-at="2017-09-13T15:55:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- ecommerce.GoogleloginTest_NG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Default test(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Default suite]] -->
 </testng-results>

@@ -2,19 +2,26 @@ package ecommerce;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
+
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 public class ebay {
+
+}
 	@Test
   public void login() {
 	  WebElement Email = driver.findElement(by.id("452371801"));
-	  
+	
 	  Email.sendKeys("email");
 	  System.out.println("email:");
 	  
@@ -30,8 +37,15 @@ public class ebay {
 	@beforemethod
   public void Login() {
 	  WebDriver driver =new FirefoxDriver();
+	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  
 	  driver.get("http://ebay.com");
-	  driver.findElement(By.id("gh-ug-flex")).click();
+	WebDriverWait  wait= new WebDriverWait(driver, 15)
+	
+WebElement lin= wait.until(ExpectedCondition.elemenToBeClickable(driver.findElement(By.id("gh-ug-flex"));
+
+lin.click();
+	
  
 
 	  

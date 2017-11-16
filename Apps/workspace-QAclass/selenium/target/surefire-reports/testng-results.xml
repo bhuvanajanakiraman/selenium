@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="3657" started-at="2017-04-15T06:17:01Z" finished-at="2017-04-15T06:17:04Z">
+  <suite name="Command line suite" duration-ms="5374" started-at="2017-11-10T00:59:00Z" finished-at="2017-11-10T00:59:06Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="3657" started-at="2017-04-15T06:17:01Z" finished-at="2017-04-15T06:17:04Z">
+    <test name="Command line test" duration-ms="5374" started-at="2017-11-10T00:59:00Z" finished-at="2017-11-10T00:59:06Z">
       <class name="ecommerce.NewTest">
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:ecommerce.NewTest@2f465398]" name="f" duration-ms="0" started-at="2017-04-14T23:17:04Z" data-provider="dp" finished-at="2017-04-14T23:17:04Z">
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:ecommerce.NewTest@2f465398]" name="f" duration-ms="0" started-at="2017-11-09T16:59:06Z" data-provider="dp" finished-at="2017-11-09T16:59:06Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:ecommerce.NewTest@2f465398]" name="f" duration-ms="0" started-at="2017-04-14T23:17:04Z" data-provider="dp" finished-at="2017-04-14T23:17:04Z">
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:ecommerce.NewTest@2f465398]" name="f" duration-ms="0" started-at="2017-11-09T16:59:06Z" data-provider="dp" finished-at="2017-11-09T16:59:06Z">
           <params>
             <param index="0">
               <value>
@@ -41,36 +41,36 @@
         </test-method> <!-- f -->
       </class> <!-- ecommerce.NewTest -->
       <class name="ecommerce.FacebookLoginTest">
-        <test-method status="PASS" signature="url()[pri:0, instance:ecommerce.FacebookLoginTest@313b2ea6]" name="url" is-config="true" duration-ms="1604" started-at="2017-04-14T23:17:01Z" finished-at="2017-04-14T23:17:02Z">
+        <test-method status="PASS" signature="url()[pri:0, instance:ecommerce.FacebookLoginTest@313b2ea6]" name="url" is-config="true" duration-ms="2765" started-at="2017-11-09T16:59:00Z" finished-at="2017-11-09T16:59:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- url -->
-        <test-method status="PASS" signature="blankcredentials()[pri:0, instance:ecommerce.FacebookLoginTest@313b2ea6]" name="blankcredentials" duration-ms="1235" started-at="2017-04-14T23:17:02Z" finished-at="2017-04-14T23:17:03Z">
+        <test-method status="PASS" signature="blankcredentials()[pri:0, instance:ecommerce.FacebookLoginTest@313b2ea6]" name="blankcredentials" duration-ms="1787" started-at="2017-11-09T16:59:03Z" finished-at="2017-11-09T16:59:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blankcredentials -->
-        <test-method status="FAIL" signature="blankpass()[pri:0, instance:ecommerce.FacebookLoginTest@313b2ea6]" name="blankpass" duration-ms="363" started-at="2017-04-14T23:17:03Z" finished-at="2017-04-14T23:17:04Z">
+        <test-method status="FAIL" signature="blankpass()[pri:0, instance:ecommerce.FacebookLoginTest@313b2ea6]" name="blankpass" duration-ms="354" started-at="2017-11-09T16:59:05Z" finished-at="2017-11-09T16:59:05Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: {"method":"xpath","selector":"//input[@value='Log In']"}
-Command duration or timeout: 113 milliseconds
+Command duration or timeout: 21 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
+Session ID: 0b7db30a-bb89-4d46-82af-206312ef555a
 *** Element info: {Using=xpath, value=//input[@value='Log In']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@value='Log In']"}
-Command duration or timeout: 113 milliseconds
+Command duration or timeout: 21 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
+Session ID: 0b7db30a-bb89-4d46-82af-206312ef555a
 *** Element info: {Using=xpath, value=//input[@value='Log In']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -121,41 +121,41 @@ Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@value='Log In']"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blankpass -->
-        <test-method status="FAIL" signature="login()[pri:0, instance:ecommerce.FacebookLoginTest@313b2ea6]" name="login" duration-ms="400" started-at="2017-04-14T23:17:04Z" finished-at="2017-04-14T23:17:04Z">
+        <test-method status="FAIL" signature="login()[pri:0, instance:ecommerce.FacebookLoginTest@313b2ea6]" name="login" duration-ms="369" started-at="2017-11-09T16:59:05Z" finished-at="2017-11-09T16:59:06Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: {"method":"xpath","selector":"//input[@value='Log In']"}
-Command duration or timeout: 17 milliseconds
+Command duration or timeout: 18 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
+Session ID: 0b7db30a-bb89-4d46-82af-206312ef555a
 *** Element info: {Using=xpath, value=//input[@value='Log In']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@value='Log In']"}
-Command duration or timeout: 17 milliseconds
+Command duration or timeout: 18 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
+Session ID: 0b7db30a-bb89-4d46-82af-206312ef555a
 *** Element info: {Using=xpath, value=//input[@value='Log In']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -206,20 +206,20 @@ Session ID: 981525dd-29bf-b743-a478-376fc9cb1008
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@value='Log In']"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'LM-SJC-00870810', ip: '192.168.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+System info: host: 'LM-SJC-00870810', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous455159901880224585webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/ws/dd84j1x935x4wlzjh1sfxcrc2zcb_x/T/anonymous7435894454716171401webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:ecommerce.FacebookLoginTest@313b2ea6]" name="close" is-config="true" duration-ms="12" started-at="2017-04-14T23:17:04Z" finished-at="2017-04-14T23:17:04Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:ecommerce.FacebookLoginTest@313b2ea6]" name="close" is-config="true" duration-ms="14" started-at="2017-11-09T16:59:06Z" finished-at="2017-11-09T16:59:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
