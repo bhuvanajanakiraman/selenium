@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2390" started-at="2017-12-27T08:02:14Z" finished-at="2017-12-27T08:02:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2390" started-at="2017-12-27T08:02:14Z" finished-at="2017-12-27T08:02:16Z">
+      <class name="com.apex.service.customer.GetRequest.GetRequest">
+        <test-method status="PASS" signature="testwithallcredential()[pri:0, instance:com.apex.service.customer.GetRequest.GetRequest@c038203]" name="testwithallcredential" duration-ms="1497" started-at="2017-12-27T00:02:14Z" finished-at="2017-12-27T00:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwithallcredential -->
+        <test-method status="PASS" signature="testwithcredentials()[pri:0, instance:com.apex.service.customer.GetRequest.GetRequest@c038203]" name="testwithcredentials" duration-ms="425" started-at="2017-12-27T00:02:15Z" finished-at="2017-12-27T00:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwithcredentials -->
+        <test-method status="FAIL" signature="testwithwrongcredential()[pri:0, instance:com.apex.service.customer.GetRequest.GetRequest@c038203]" name="testwithwrongcredential" duration-ms="414" started-at="2017-12-27T00:02:16Z" finished-at="2017-12-27T00:02:16Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Not Found
+	at com.apex.webservice.RestApiHelper.performGetRequest(RestApiHelper.java:39)
+	at com.apex.service.customer.GetRequest.GetRequest.testwithwrongcredential(GetRequest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.AbstractResponseHandler.handleResponse(AbstractResponseHandler.java:69)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:65)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:51)
+	at com.apex.webservice.RestApiHelper.performGetRequest(RestApiHelper.java:33)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwithwrongcredential -->
+      </class> <!-- com.apex.service.customer.GetRequest.GetRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

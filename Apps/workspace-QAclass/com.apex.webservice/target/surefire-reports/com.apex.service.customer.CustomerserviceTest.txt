@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.apex.service.customer.CustomerserviceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.073 sec <<< FAILURE!
+TestPost(com.apex.service.customer.CustomerserviceTest)  Time elapsed: 1.287 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Created> but was:<OK>
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+	at com.apex.service.customer.CustomerserviceTest.TestPost(CustomerserviceTest.java:75)
+
